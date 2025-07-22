@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Ramya",
+    "age": 21,
+    "city": "Perambur"
+  },
+  {
+    "id": 2,
+    "name": "Shalini",
+    "age": 20,
+    "city": "Chennai"
+  },
+  {
+    "id": 3,
+    "name": "Vijay",
+    "age": 49,
+    "city": "Bangalore"
+  },
+  {
+    "id": 4,
+    "name": "Ajith",
+    "age": 52,
+    "city": "Salem"
+  },
+  {
+    "id": 5,
+    "name": "Kumar",
+    "age": 25,
+    "city": "Chennai"
+  },
+  {
+    "id": 6,
+    "name": "Ameer",
+    "age": 22,
+    "city": "Hosure"
+  },
+  {
+    "id": 7,
+    "name": "Tiya",
+    "age": 28,
+    "city": "Namakkal"
+  },
+  {
+    "id": 8,
+    "name": "Zara",
+    "age": 29,
+    "city": "Chennai"
+  },
+  {
+    "id": 9,
+    "name": "Anu",
+    "age": 18,
+    "city": "Palakkad"
+  },
+  {
+    "id": 10,
+    "name": "Ravi",
+    "age": 30,
+    "city": "Salem"
+  }
+]
