@@ -19,6 +19,46 @@ function App() {
                 <th>Delete</th>
               </tr>
             </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Ramya</td>
+                <td>21</td>
+                <td>Perambur</td>
+                <td>
+                  <button>Edit</button>
+                </td>
+                <td>
+                  <button>Delete</button>
+                </td>
+              </tr>
+
+              <tr>
+                <td>2</td>
+                <td>Shalini</td>
+                <td>20</td>
+                <td>Chennai</td>
+                <td>
+                  <button>Edit</button>
+                </td>
+                <td>
+                  <button>Delete</button>
+                </td>
+              </tr>
+
+              <tr>
+                <td>3</td>
+                <td>Vijay</td>
+                <td>49</td>
+                <td>Bangalore</td>
+                <td>
+                  <button>Edit</button>
+                </td>
+                <td>
+                  <button>Delete</button>
+                </td>
+              </tr>
+            </tbody>
           </table>
         </div>
       </div>
