@@ -6,3 +6,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
