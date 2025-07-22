@@ -1,6 +1,7 @@
 const express = require("express");
 const users = require("./sample.json"); // Assuming users.json is in the same directory
-const app = express;
+
+const app = express();
 const port = 3030;
 
 // Display All Users
