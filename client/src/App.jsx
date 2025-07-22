@@ -8,7 +8,18 @@ function App() {
         <div className="input-search">
           <input type="search" />
           <button>Add Record</button>
-          <table className="table"></table>
+          <table className="table">
+            <thead>
+              <tr>
+                <th>S.No</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+                <th>Edit</th>
+                <th>Delete</th>
+              </tr>
+            </thead>
+          </table>
         </div>
       </div>
     </>
