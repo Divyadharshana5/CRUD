@@ -47,12 +47,13 @@ h3 {
 
 .input-search {
   display: flex;
+  justify-content: space-between;
 }
 
 .input-search input {
   width: 300px;
   padding: 8px;
-  border: 1px solid #ccc;
   border-radius: 4px;
+  border: 1px solid #ccc;
   outline: none;
 }
