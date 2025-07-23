@@ -26,4 +26,15 @@ h3 {
   color: white;
   padding: 8px 10px;
   border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+.green {
+  background-color: #4caf50;
+}
+
+.btn.green:hover {
+  background-color: #45a049;
 }
