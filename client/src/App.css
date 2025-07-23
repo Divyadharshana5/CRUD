@@ -73,7 +73,7 @@ h3 {
 .table tr:hover {
   background-color: #ddd;
 }
-tr:last-child {
+.table tr:last-child {
   border-bottom: none;
 }
 .btn {
