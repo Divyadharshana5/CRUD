@@ -15,4 +15,9 @@
 h3 {
   font-size: 18px;
   font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px dashed #ccc;
+  color: darkslategrey;
 }
