@@ -27,7 +27,7 @@ h3 {
   display: flex;
   justify-content: space-between; /* aligns content to the right */
   align-items: center;
-  margin: 16px 0 10px 0; /* vertical space between heading & table */
+  margin-bottom: 20px;
 }
 
 .input-search input {
@@ -53,23 +53,24 @@ h3 {
   background-color: #388e3c;
 }
 
-table {
+.table {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 10px;
-  font-size: 16px;
 }
-th,
-td {
-  border: none;
-  text-align: left;
-  padding: 6px 12px;
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
 }
-th {
-  font-weight: 600;
+.table th {
+  background-color: #f2f2f2;
 }
-tr {
-  border-bottom: 1px solid #ddd;
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.table tr:hover {
+  background-color: #ddd;
 }
 tr:last-child {
   border-bottom: none;

@@ -58,6 +58,19 @@ function App() {
                   <button className="btn red">Delete</button>
                 </td>
               </tr>
+
+              <tr>
+                <td>4</td>
+                <td>Chinnu</td>
+                <td>18</td>
+                <td>Chennai</td>
+                <td>
+                  <button className="btn green">Edit</button>
+                </td>
+                <td>
+                  <button className="btn red">Delete</button>
+                </td>
+              </tr>
             </tbody>
           </table>
         </div>
