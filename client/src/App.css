@@ -25,14 +25,14 @@ h3 {
 
 .input-search {
   display: flex;
-  justify-content: flex-end; /* aligns content to the right */
+  justify-content: space-between; /* aligns content to the right */
   align-items: center;
   margin: 16px 0 10px 0; /* vertical space between heading & table */
 }
 
 .input-search input {
-  width: 265px;
-  padding: 7px 10px;
+  width: 300px;
+  padding: 8px;
   border-radius: 4px;
   border: 1px solid #ccc;
   outline: none;
