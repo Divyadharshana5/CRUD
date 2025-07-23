@@ -7,7 +7,7 @@ function App() {
         <h3>CRUD Application with React.js Frontend and Node.js Backend </h3>
         <div className="input-search">
           <input type="search" />
-          <button className="btn green">Add Record</button>
+          <button className="add-btn green">Add Record</button>
           <table className="table">
             <thead>
               <tr>
