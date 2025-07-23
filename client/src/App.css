@@ -44,3 +44,15 @@ h3 {
 .btn.red:hover {
   background-color: #e53935;
 }
+
+.input-search {
+  display: flex;
+}
+
+.input-search input {
+  width: 300px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
