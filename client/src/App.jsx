@@ -7,7 +7,7 @@ function App() {
         <h3>CRUD Application with React.js Frontend and Node.js Backend </h3>
         <div className="input-search">
           <input type="search" />
-          <button>Add Record</button>
+          <button className="btn">Add Record</button>
           <table className="table">
             <thead>
               <tr>
@@ -26,10 +26,10 @@ function App() {
                 <td>21</td>
                 <td>Perambur</td>
                 <td>
-                  <button>Edit</button>
+                  <button className="btn">Edit</button>
                 </td>
                 <td>
-                  <button>Delete</button>
+                  <button className="btn">Delete</button>
                 </td>
               </tr>
 
@@ -39,10 +39,10 @@ function App() {
                 <td>20</td>
                 <td>Chennai</td>
                 <td>
-                  <button>Edit</button>
+                  <button className="btn">Edit</button>
                 </td>
                 <td>
-                  <button>Delete</button>
+                  <button className="btn">Delete</button>
                 </td>
               </tr>
 
@@ -52,10 +52,10 @@ function App() {
                 <td>49</td>
                 <td>Bangalore</td>
                 <td>
-                  <button>Edit</button>
+                  <button className="btn">Edit</button>
                 </td>
                 <td>
-                  <button>Delete</button>
+                  <button className="btn">Delete</button>
                 </td>
               </tr>
             </tbody>
