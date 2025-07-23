@@ -29,7 +29,7 @@ function App() {
                   <button className="btn green">Edit</button>
                 </td>
                 <td>
-                  <button className="btn">Delete</button>
+                  <button className="btn red">Delete</button>
                 </td>
               </tr>
 
@@ -42,7 +42,7 @@ function App() {
                   <button className="btn green">Edit</button>
                 </td>
                 <td>
-                  <button className="btn">Delete</button>
+                  <button className="btn red">Delete</button>
                 </td>
               </tr>
 
@@ -55,7 +55,7 @@ function App() {
                   <button className="btn green">Edit</button>
                 </td>
                 <td>
-                  <button className="btn">Delete</button>
+                  <button className="btn red">Delete</button>
                 </td>
               </tr>
             </tbody>

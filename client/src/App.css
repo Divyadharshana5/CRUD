@@ -38,3 +38,9 @@ h3 {
 .btn.green:hover {
   background-color: #45a049;
 }
+.red {
+  background-color: #f44336;
+}
+.btn.red:hover {
+  background-color: #e53935;
+}
