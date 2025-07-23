@@ -21,3 +21,9 @@ h3 {
   border-bottom: 1px dashed #ccc;
   color: darkslategrey;
 }
+
+.btn {
+  color: white;
+  padding: 8px 10px;
+  border: none;
+}
