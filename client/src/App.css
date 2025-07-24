@@ -25,11 +25,11 @@ h3 {
 
 .input-search {
   display: flex;
-  justify-content: center;
+  justify-content: space-between; /* aligns content to the right */
   align-items: center;
   margin-bottom: 20px;
-  gap: 12px;
 }
+
 .input-search input {
   width: 300px;
   padding: 8px;
@@ -37,7 +37,7 @@ h3 {
   border: 1px solid #ccc;
   outline: none;
   font-size: 16px;
-  margin-right: 0;
+  margin-right: 12px;
 }
 
 .add-btn {
