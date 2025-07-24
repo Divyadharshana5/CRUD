@@ -5,7 +5,9 @@ import "./App.css";
 function App() {
   const [users, setUsers] = useState([]);
 
-  const getAllUsers = async () => {};
+  const getAllUsers = async () => {
+    await axios.get();
+  };
 
   useEffect(() => {
     getAllUsers();
