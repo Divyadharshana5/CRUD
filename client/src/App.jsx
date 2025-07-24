@@ -1,6 +1,9 @@
+import { useState, useEffect } from "react";
+import axios from "axios";
 import "./App.css";
 
 function App() {
+  const [users, setUsers] = useState([]);
   return (
     <div className="container">
       <h3>CRUD Application with React.js Frontend and Node.js Backend</h3>
