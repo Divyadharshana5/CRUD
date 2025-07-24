@@ -6,7 +6,7 @@ function App() {
   const [users, setUsers] = useState([]);
 
   const getAllUsers = async () => {
-    await axios.get();
+    await axios.get("http://localhost:3030/users");
   };
 
   useEffect(() => {
