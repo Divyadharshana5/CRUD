@@ -9,6 +9,7 @@ function App() {
     await axios.get("http://localhost:3030/users").then((res) => {
       setUsers(res.data);
     });
+    console.log(users);
   };
 
   useEffect(() => {
