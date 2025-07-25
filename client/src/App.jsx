@@ -19,6 +19,11 @@ function App() {
 
   const handleSearchChange = (e) => {
     const searchText = e.target.value.toLowerCase();
+    const filteredUsers = users.filter(
+      (user) =>
+        user.name.toLowerCase().includes(searchText) ||
+        user.city.toLowerCase().includes(searchText)
+    );
   };
   return (
     <div className="container">
