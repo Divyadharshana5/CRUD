@@ -40,7 +40,7 @@ function App() {
                   <td>{index + 1}</td>
                   <td>{user.name}</td>
                   <td>{user.age}</td>
-                  <td></td>
+                  <td>{user.city}</td>
                   <td>
                     <button className="btn green">Edit</button>
                   </td>
