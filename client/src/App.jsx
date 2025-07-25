@@ -37,7 +37,7 @@ function App() {
             users.map((user, index) => {
               return (
                 <tr key={user.id}>
-                  <td>{index}</td>
+                  <td>{index + 1}</td>
                   <td>Ramya</td>
                   <td>21</td>
                   <td>Perambur</td>
