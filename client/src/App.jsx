@@ -32,7 +32,25 @@ function App() {
             <th>Delete</th>
           </tr>
         </thead>
-        <tbody>{users && users.map()}</tbody>
+        <tbody>
+          {users &&
+            users.map((user) => {
+              return (
+                <tr key={user.id}>
+                  <td>1</td>
+                  <td>Ramya</td>
+                  <td>21</td>
+                  <td>Perambur</td>
+                  <td>
+                    <button className="btn green">Edit</button>
+                  </td>
+                  <td>
+                    <button className="btn red">Delete</button>
+                  </td>
+                </tr>
+              );
+            })}
+        </tbody>
       </table>
     </div>
   );
