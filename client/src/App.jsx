@@ -38,7 +38,7 @@ function App() {
               return (
                 <tr key={user.id}>
                   <td>{index + 1}</td>
-                  <td>Ramya</td>
+                  <td>{user.name}</td>
                   <td>21</td>
                   <td>Perambur</td>
                   <td>
