@@ -18,7 +18,7 @@ function App() {
     <div className="container">
       <h3>CRUD Application with React.js Frontend and Node.js Backend</h3>
       <div className="input-search">
-        <input type="search" placeholder="Search..." />
+        <input type="search" placeholder="Search Text Here..." />
         <button className="add-btn green">Add Record</button>
       </div>
       <table className="table">
