@@ -34,10 +34,10 @@ function App() {
         </thead>
         <tbody>
           {users &&
-            users.map((user) => {
+            users.map((user, index) => {
               return (
                 <tr key={user.id}>
-                  <td>1</td>
+                  <td>{index}</td>
                   <td>Ramya</td>
                   <td>21</td>
                   <td>Perambur</td>
