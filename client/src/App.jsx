@@ -14,11 +14,19 @@ function App() {
   useEffect(() => {
     getAllUsers();
   }, []);
+
+  //Search Function
+
+  const handleSearchChange = () => {};
   return (
     <div className="container">
       <h3>CRUD Application with React.js Frontend and Node.js Backend</h3>
       <div className="input-search">
-        <input type="search" placeholder="Search Text Here..." />
+        <input
+          type="search"
+          placeholder="Search Text Here..."
+          onChange={handleSearchChange}
+        />
         <button className="add-btn green">Add Record</button>
       </div>
       <table className="table">
