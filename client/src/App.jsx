@@ -17,7 +17,9 @@ function App() {
 
   //Search Function
 
-  const handleSearchChange = () => {};
+  const handleSearchChange = (e) => {
+    const searchText = e.target.value.toLowerCase();
+  };
   return (
     <div className="container">
       <h3>CRUD Application with React.js Frontend and Node.js Backend</h3>
