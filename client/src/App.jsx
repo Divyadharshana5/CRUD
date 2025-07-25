@@ -39,8 +39,8 @@ function App() {
                 <tr key={user.id}>
                   <td>{index + 1}</td>
                   <td>{user.name}</td>
-                  <td>21</td>
-                  <td>Perambur</td>
+                  <td>{user.age}</td>
+                  <td></td>
                   <td>
                     <button className="btn green">Edit</button>
                   </td>
