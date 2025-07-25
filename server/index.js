@@ -16,6 +16,4 @@ app.get("/users", (req, res) => {
   return res.json(users);
 });
 
-app.listen(port, (err) => {
-  console.log(`Api is running on port ${port}`);
-});
+app.listen(3030, () => console.log("Api is running on port 3030"));
