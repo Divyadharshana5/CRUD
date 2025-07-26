@@ -63,7 +63,12 @@ function App() {
                     <button className="btn green">Edit</button>
                   </td>
                   <td>
-                    <button className="btn red">Delete</button>
+                    <button
+                      onClick={() => handleDelete(user.id)}
+                      className="btn red"
+                    >
+                      Delete
+                    </button>
                   </td>
                 </tr>
               );
