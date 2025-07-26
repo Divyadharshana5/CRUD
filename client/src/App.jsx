@@ -31,7 +31,10 @@ function App() {
 
   //Delete Function
   const handleDelete = async (id) => {
-    await axios.delete(`http://localhost:3030/users/${id}`).then(() => {});
+    await axios.delete(`http://localhost:3030/users/${id}`).then((res) => {
+      setUsers(res.data);
+      setFilterusers(res.data);
+    });
   };
 
   return (
