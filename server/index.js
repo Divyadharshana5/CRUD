@@ -16,4 +16,7 @@ app.get("/users", (req, res) => {
   return res.json(users);
 });
 
+//Delete User Detail
+app.delete("/users/:id", (req, res) => {});
+
 app.listen(3030, () => console.log("Api is running on port 3030"));
