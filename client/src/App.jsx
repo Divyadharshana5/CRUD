@@ -24,6 +24,7 @@ function App() {
         user.name.toLowerCase().includes(searchText) ||
         user.city.toLowerCase().includes(searchText)
     );
+    setFilterusers(filteredUsers);
   };
   return (
     <div className="container">
