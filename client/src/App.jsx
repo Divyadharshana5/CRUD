@@ -28,6 +28,12 @@ function App() {
     );
     setFilterusers(filteredUsers);
   };
+
+  //Delete Function
+  const handleDelete = async (id) => {
+    await axios.delete(`http://localhost:3030/users/${id}`).then(() => {});
+  };
+
   return (
     <div className="container">
       <h3>CRUD Application with React.js Frontend and Node.js Backend</h3>
