@@ -4,7 +4,7 @@ import "./App.css";
 
 function App() {
   const [users, setUsers] = useState([]);
-  const [filteredusers, setFilterusers] = useState([]);
+  const [filterusers, setFilterusers] = useState([]);
 
   const getAllUsers = async () => {
     await axios.get("http://localhost:3030/users").then((res) => {
@@ -20,12 +20,12 @@ function App() {
 
   const handleSearchChange = (e) => {
     const searchText = e.target.value.toLowerCase();
-    const filteredusers = users.filter(
+    const filteredUsers = users.filter(
       (user) =>
         user.name.toLowerCase().includes(searchText) ||
         user.city.toLowerCase().includes(searchText)
     );
-    setFilterusers(filteredusers);
+    setFilterusers(filteredUsers);
   };
   return (
     <div className="container">
@@ -50,8 +50,8 @@ function App() {
           </tr>
         </thead>
         <tbody>
-          {filteredusers &&
-            filteredusers.map((user, index) => {
+          {filterusers &&
+            filterusers.map((user, index) => {
               return (
                 <tr key={user.id}>
                   <td>{index + 1}</td>
