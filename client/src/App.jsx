@@ -43,6 +43,8 @@ function App() {
     }
   };
 
+  //And User Details
+  const handleAddRecord = () => {};
   return (
     <div className="container">
       <h3>CRUD Application with React.js Frontend and Node.js Backend</h3>
