@@ -1,6 +1,7 @@
 const express = require("express");
 const users = require("./sample.json"); // Assuming users.json is in the same directory
 const cors = require("cors");
+const fs = require("fs");
 
 const app = express();
 const port = 3030;
