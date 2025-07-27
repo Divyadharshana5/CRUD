@@ -24,7 +24,9 @@ app.delete("/users/:id", (req, res) => {
   fs.writeFile(
     "./server/sample.json",
     JSON.stringify(filteredUsers),
-    (err, data) => {}
+    (err, data) => {
+      return res.json(filteredUsers);
+    }
   );
 });
 
