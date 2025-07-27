@@ -21,6 +21,11 @@ app.get("/users", (req, res) => {
 app.delete("/users/:id", (req, res) => {
   let id = Number(req.params.id);
   let filteredUsers = users.filter((user) => user.id !== id);
+  fs.writeFile(
+    "./server/sample.json",
+    JSON.stringify(filteredUsers),
+    (err, data) => {}
+  );
 });
 
 app.listen(3030, () => console.log("Api is running on port 3030"));
