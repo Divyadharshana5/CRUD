@@ -52,7 +52,9 @@ function App() {
           placeholder="Search Text Here..."
           onChange={handleSearchChange}
         />
-        <button className="add-btn green">Add Record</button>
+        <button className="add-btn green" onClick={handleAddRecord}>
+          Add Record
+        </button>
       </div>
       <table className="table">
         <thead>
