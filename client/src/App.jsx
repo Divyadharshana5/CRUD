@@ -6,6 +6,11 @@ function App() {
   const [users, setUsers] = useState([]);
   const [filterusers, setFilterusers] = useState([]);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [userData, setUserData] = useState({
+    name: "",
+    age: "",
+    city: "",
+  });
 
   const getAllUsers = async () => {
     await axios.get("http://localhost:3030/users").then((res) => {
