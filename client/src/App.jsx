@@ -31,6 +31,9 @@ function App() {
 
   //Delete Function
   const handleDelete = async (id) => {
+    const isConfirmed = window.confirm(
+      "Are you sure you want to delete this user?"
+    );
     await axios.delete(`http://localhost:3030/users/${id}`).then((res) => {
       setUsers(res.data);
       setFilterusers(res.data);
