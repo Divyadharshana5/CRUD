@@ -119,6 +119,7 @@ function App() {
               &times;
             </span>
             <h2>User Record</h2>
+            <div className="input-group"></div>
           </div>
         </div>
       )}
