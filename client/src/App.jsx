@@ -119,7 +119,9 @@ function App() {
               &times;
             </span>
             <h2>User Record</h2>
-            <div className="input-group"></div>
+            <div className="input-group">
+              <label htmlFor="name">Full Name</label>
+            </div>
           </div>
         </div>
       )}
