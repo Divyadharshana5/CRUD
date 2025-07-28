@@ -133,6 +133,7 @@ function App() {
               <label htmlFor="city">City</label>
               <input type="text" name="city" id="city" />
             </div>
+            <button className="btn green">Add User</button>
           </div>
         </div>
       )}
