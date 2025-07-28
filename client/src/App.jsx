@@ -48,6 +48,12 @@ function App() {
     }
   };
 
+  //Close Modal
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
   //And User Details
   const handleAddRecord = () => {
     setUserData({
