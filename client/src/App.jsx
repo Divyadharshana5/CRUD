@@ -128,6 +128,11 @@ function App() {
               <label htmlFor="age">Age</label>
               <input type="number" name="age" id="age" />
             </div>
+
+            <div className="input-group">
+              <label htmlFor="city">City</label>
+              <input type="text" name="city" id="city" />
+            </div>
           </div>
         </div>
       )}
