@@ -108,7 +108,9 @@ function App() {
       </table>
       {isModalOpen && (
         <div className="modal">
-          <div className="modal-content"></div>
+          <div className="modal-content">
+            <h2>User Record</h2>
+          </div>
         </div>
       )}
     </div>
