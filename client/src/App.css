@@ -128,3 +128,8 @@ h3 {
   color: #000;
   cursor: pointer;
 }
+
+.modal h2 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
