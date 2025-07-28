@@ -94,3 +94,7 @@ h3 {
 .btn.red:hover {
   background-color: #e53935;
 }
+
+.modal {
+  display: block;
+}
