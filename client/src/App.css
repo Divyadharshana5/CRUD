@@ -114,3 +114,10 @@ h3 {
   border: 1px solid #888;
   width: 80%;
 }
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
