@@ -123,6 +123,11 @@ function App() {
               <label htmlFor="name">Full Name</label>
               <input type="text" name="name" id="name" />
             </div>
+
+            <div className="input-group">
+              <label htmlFor="age">Age</label>
+              <input type="number" name="age" id="age" />
+            </div>
           </div>
         </div>
       )}
