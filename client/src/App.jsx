@@ -55,6 +55,7 @@ function App() {
       age: "",
       city: "",
     });
+    setIsModalOpen(true);
   };
   return (
     <div className="container">
@@ -105,6 +106,7 @@ function App() {
             })}
         </tbody>
       </table>
+      {isModalOpen && <div className="modal"></div>}
     </div>
   );
 }
