@@ -137,3 +137,8 @@ h3 {
 .input-group {
   margin-bottom: 10px;
 }
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
