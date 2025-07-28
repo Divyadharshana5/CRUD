@@ -109,6 +109,7 @@ function App() {
       {isModalOpen && (
         <div className="modal">
           <div className="modal-content">
+            <span className="close"></span>
             <h2>User Record</h2>
           </div>
         </div>
