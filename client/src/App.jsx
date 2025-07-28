@@ -106,7 +106,11 @@ function App() {
             })}
         </tbody>
       </table>
-      {isModalOpen && <div className="modal"></div>}
+      {isModalOpen && (
+        <div className="modal">
+          <div className="modal-content"></div>
+        </div>
+      )}
     </div>
   );
 }
