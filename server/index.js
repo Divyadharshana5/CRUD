@@ -33,6 +33,10 @@ app.delete("/users/:id", (req, res) => {
 
 //Add New User
 app.post("/users", (req, res) => {
+  let { name, age, city } = req.body;
+  if (!name || !age || !city) {
+    return res.status(400).send({ message: "All fields are required" });
+  }
   return res.json({ message: "User Deatil added Successfully" });
 });
 
