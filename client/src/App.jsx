@@ -155,7 +155,9 @@ function App() {
                 onChange={handleData}
               />
             </div>
-            <button className="btn green">Add User</button>
+            <button className="btn green" onClick={handleSubmit}>
+              Add User
+            </button>
           </div>
         </div>
       )}
