@@ -121,12 +121,24 @@ function App() {
             <h2>User Record</h2>
             <div className="input-group">
               <label htmlFor="name">Full Name</label>
-              <input type="text" value={userData.name} name="name" id="name" />
+              <input
+                type="text"
+                value={userData.name}
+                name="name"
+                id="name"
+                onChange={handleData}
+              />
             </div>
 
             <div className="input-group">
               <label htmlFor="age">Age</label>
-              <input type="number" value={userData.age} name="age" id="age" />
+              <input
+                type="number"
+                value={userData.age}
+                name="age"
+                id="age"
+                onChange={handleData}
+              />
             </div>
 
             <div className="input-group">
