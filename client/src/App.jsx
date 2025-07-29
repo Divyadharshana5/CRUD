@@ -131,7 +131,13 @@ function App() {
 
             <div className="input-group">
               <label htmlFor="city">City</label>
-              <input type="text" value={userData.city} name="city" id="city" />
+              <input
+                type="text"
+                value={userData.city}
+                name="city"
+                id="city"
+                onChange={handleData}
+              />
             </div>
             <button className="btn green">Add User</button>
           </div>
