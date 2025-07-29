@@ -4,6 +4,7 @@ const cors = require("cors");
 const fs = require("fs");
 
 const app = express();
+app.use(express.json()); // Middleware to parse JSON bodies
 const port = 3030;
 
 app.use(
