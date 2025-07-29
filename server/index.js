@@ -31,6 +31,8 @@ app.delete("/users/:id", (req, res) => {
 });
 
 //Add New User
-app.post("/users", (req, res) => {});
+app.post("/users", (req, res) => {
+  return res.json({ data: req.body });
+});
 
 app.listen(3030, () => console.log("Api is running on port 3030"));
