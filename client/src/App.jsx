@@ -126,12 +126,12 @@ function App() {
 
             <div className="input-group">
               <label htmlFor="age">Age</label>
-              <input type="number" name="age" id="age" />
+              <input type="number" value={userData.age} name="age" id="age" />
             </div>
 
             <div className="input-group">
               <label htmlFor="city">City</label>
-              <input type="text" name="city" id="city" />
+              <input type="text" value={userData.city} name="city" id="city" />
             </div>
             <button className="btn green">Add User</button>
           </div>
