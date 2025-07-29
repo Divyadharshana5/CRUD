@@ -65,7 +65,7 @@ function App() {
   };
 
   const handleData = (e) => {
-    setUserData({ ...userData });
+    setUserData({ ...userData, [e.target.name]: e.target.value });
   };
   return (
     <div className="container">
