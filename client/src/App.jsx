@@ -121,7 +121,7 @@ function App() {
             <h2>User Record</h2>
             <div className="input-group">
               <label htmlFor="name">Full Name</label>
-              <input type="text" name="name" id="name" />
+              <input type="text" value={userData.name} name="name" id="name" />
             </div>
 
             <div className="input-group">
