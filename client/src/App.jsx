@@ -71,7 +71,9 @@ function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    await axios.post("http://localhost:3030/users", userData).then((res) => {});
+    await axios.post("http://localhost:3030/users", userData).then((res) => {
+      console.log(res);
+    });
   };
   return (
     <div className="container">
