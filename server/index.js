@@ -37,6 +37,7 @@ app.post("/users", (req, res) => {
   if (!name || !age || !city) {
     return res.status(400).send({ message: "All fields are required" });
   }
+  let id = Date.now();
   return res.json({ message: "User Deatil added Successfully" });
 });
 
