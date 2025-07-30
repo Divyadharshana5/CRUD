@@ -110,7 +110,12 @@ function App() {
                   <td>{user.age}</td>
                   <td>{user.city}</td>
                   <td>
-                    <button className="btn green">Edit</button>
+                    <button
+                      className="btn green"
+                      onClick={() => handleUpdateRecord(user)}
+                    >
+                      Edit
+                    </button>
                   </td>
                   <td>
                     <button
