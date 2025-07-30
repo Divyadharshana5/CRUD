@@ -72,6 +72,9 @@ function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (userData.id) {
+      await axios.patch("http://localhost:3030/users", userData).then((res) => {
+        console.log(res);
+      });
     } else {
       await axios.post("http://localhost:3030/users", userData).then((res) => {
         console.log(res);
