@@ -39,6 +39,14 @@ app.post("/users", (req, res) => {
   }
   let id = Date.now();
   users.push({ id, name, age, city });
+
+  fs.writeFile(
+    "./server/sample.json",
+    JSON.stringify(filteredUsers),
+    (err, data) => {
+      return res.json(filteredUsers);
+    }
+  );
   return res.json({ message: "User Deatil added Successfully" });
 });
 
