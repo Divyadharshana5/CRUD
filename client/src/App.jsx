@@ -76,6 +76,12 @@ function App() {
       console.log(res);
     });
   };
+
+  //Update User Details
+  const handleUpdateRecord = (user) => {
+    setUserData(user);
+    setIsModalOpen(true);
+  };
   return (
     <div className="container">
       <h3>CRUD Application with React.js Frontend and Node.js Backend</h3>
