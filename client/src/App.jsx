@@ -71,10 +71,12 @@ function App() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
-    await axios.post("http://localhost:3030/users", userData).then((res) => {
-      console.log(res);
-    });
+    if (userData.id) {
+    } else {
+      await axios.post("http://localhost:3030/users", userData).then((res) => {
+        console.log(res);
+      });
+    }
   };
 
   //Update User Details
