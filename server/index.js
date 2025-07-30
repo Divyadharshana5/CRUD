@@ -38,6 +38,7 @@ app.post("/users", (req, res) => {
     return res.status(400).send({ message: "All fields are required" });
   }
   let id = Date.now();
+  users.push({ id, name, age, city });
   return res.json({ message: "User Deatil added Successfully" });
 });
 
