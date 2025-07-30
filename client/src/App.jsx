@@ -52,6 +52,7 @@ function App() {
 
   const closeModal = () => {
     setIsModalOpen(false);
+    getAllUsers();
   };
 
   //And User Details
