@@ -55,7 +55,6 @@ app.patch("/users", (req, res) => {
   }
 
   users.push({ id, name, age, city });
-
   fs.writeFile("./server/sample.json", JSON.stringify(users), (err, data) => {
     return res.json({ message: "User Deatil added Successfully" });
   });
