@@ -48,11 +48,12 @@ app.post("/users", (req, res) => {
 //Update User Detail
 
 app.patch("/users", (req, res) => {
+  let id = Number(req.params.id);
   let { name, age, city } = req.body;
   if (!name || !age || !city) {
     return res.status(400).send({ message: "All fields are required" });
   }
-  let id = Date.now();
+
   users.push({ id, name, age, city });
 
   fs.writeFile("./server/sample.json", JSON.stringify(users), (err, data) => {
