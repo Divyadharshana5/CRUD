@@ -82,6 +82,7 @@ function App() {
         console.log(res);
       });
     }
+    closeModal();
   };
 
   //Update User Details
