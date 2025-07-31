@@ -83,6 +83,11 @@ function App() {
       });
     }
     closeModal();
+    setUserData({
+      name: "",
+      age: "",
+      city: "",
+    });
   };
 
   //Update User Details
