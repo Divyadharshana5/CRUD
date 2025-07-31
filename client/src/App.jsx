@@ -155,7 +155,7 @@ function App() {
             <span className="close" onClick={closeModal}>
               &times;
             </span>
-            <h2>User Record</h2>
+            <h2>{userData.id ? "Update Record" : "Add Record"}</h2>
             <div className="input-group">
               <label htmlFor="name">Full Name</label>
               <input
