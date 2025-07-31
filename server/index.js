@@ -45,4 +45,19 @@ app.post("/users", (req, res) => {
   });
 });
 
+//Update User Detail
+
+app.patch("/users", (req, res) => {
+  let { name, age, city } = req.body;
+  if (!name || !age || !city) {
+    return res.status(400).send({ message: "All fields are required" });
+  }
+  let id = Date.now();
+  users.push({ id, name, age, city });
+
+  fs.writeFile("./server/sample.json", JSON.stringify(users), (err, data) => {
+    return res.json({ message: "User Deatil added Successfully" });
+  });
+});
+
 app.listen(3030, () => console.log("Api is running on port 3030"));
