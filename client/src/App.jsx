@@ -189,7 +189,7 @@ function App() {
               />
             </div>
             <button className="btn green" onClick={handleSubmit}>
-              Add User
+              {userData.id ? "Update Record" : "Add Record"}
             </button>
           </div>
         </div>
