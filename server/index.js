@@ -47,7 +47,7 @@ app.post("/users", (req, res) => {
 
 //Update User Detail
 
-app.patch("/users", (req, res) => {
+app.patch("/users/:id", (req, res) => {
   let id = Number(req.params.id);
   let { name, age, city } = req.body;
   if (!name || !age || !city) {
